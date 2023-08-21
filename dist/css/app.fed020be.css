@@ -1,0 +1,1 @@
+.home-view{height:100vh;width:100vw}.home-view .home-view__logout{position:fixed;bottom:32px;right:32px}.login-view{height:100vh;width:100vw;display:flex;align-items:center;justify-content:center}.login-view__card{width:60vw}.login-view__card_content{display:flex;flex-direction:column;row-gap:12px}body{font-family:var(--font-family);margin:0}
