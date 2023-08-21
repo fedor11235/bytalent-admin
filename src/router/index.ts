@@ -4,11 +4,11 @@ import LoginView from "../views/LoginView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: "/admin",
+    path: "/",
     redirect: { name: "home" },
   },
   {
-    path: "/admin/home",
+    path: "/home",
     name: "home",
     component: HomeView,
     meta: {
@@ -16,7 +16,7 @@ const routes: Array<RouteRecordRaw> = [
     },
   },
   {
-    path: "/admin/login",
+    path: "/login",
     name: "login",
     component: LoginView,
     meta: {
