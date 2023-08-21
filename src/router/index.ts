@@ -8,7 +8,7 @@ const routes: Array<RouteRecordRaw> = [
     redirect: { name: "home" },
   },
   {
-    path: "/home",
+    path: "/admin/home",
     name: "home",
     component: HomeView,
     meta: {
@@ -16,7 +16,7 @@ const routes: Array<RouteRecordRaw> = [
     },
   },
   {
-    path: "/login",
+    path: "/admin/login",
     name: "login",
     component: LoginView,
     meta: {
